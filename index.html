@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanti Auguri Vincent!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tanti Auguri Vincent!</h1>
+        <p>Con l'estate alle &#x1f6aa;</p>
+        <p>e la &#x1f975;
+            che minaccia forte,</p>
+        <p>ti doniamo un</p>
+        <p id="datetime"></p>
+
+        <p>un po' bizzarro, ma fa niente!</p>
+        <p>Perché sappiam che sei un tantinello freddoloso</p>
+        <p>&#40;in autunno e in inverno, non essere permaloso!&#41;</p>
+        <p>Quando i fiocchi cadono, o fischia il vento,</p>
+        <p>noi speriamo che questo dono ti renderà contento!</p>
+        <p>Quando hai i brividi può abbracciarti forte</p>
+        <p>d'un abbraccio che ti ricorderà il nostro amore!</p>
+        <p></p>
+        <p>I tuoi amici: Chiara, Giulia, Lucia, Alessandra e Luigi</p>
+    </div>
+
+    <script>
+        // Get current date and time
+        var now = new Date();
+        var datetime = now.toLocaleString();
+      
+        // Insert date and time into HTML
+        document.getElementById("datetime").innerHTML = datetime;
+      </script>
+</body>
+</html>
+
